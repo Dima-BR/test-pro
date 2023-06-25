@@ -10,10 +10,10 @@
           <!-- <router-link class="dropdown-item" to="/">Language</router-link> -->
        
         </div>
-        <div>
+        <!-- <div>
           <button @click="switchLanguage('en')">English</button>
           <button @click="switchLanguage('ar')">العربية</button>
-        </div>
+        </div> -->
       </div>
       <!--Logo-->
         <router-link  class="navbar-brand py-0 pl-5" to="/">
@@ -56,10 +56,10 @@ export default {
     // switchLanguage(language) {
     //   this.$emit('language-switch', language);
     // },
-    switchLanguage(locale) {
-      document.documentElement.setAttribute('lang', locale);
-      document.documentElement.setAttribute('dir', locale === 'ar' ? 'rtl' : 'ltr');
-}
+//     switchLanguage(locale) {
+//       document.documentElement.setAttribute('lang', locale);
+//       document.documentElement.setAttribute('dir', locale === 'ar' ? 'rtl' : 'ltr');
+// }
   }
 }
 </script>

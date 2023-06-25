@@ -3,7 +3,7 @@
 
     <!-- <Info :translations="translations" /> -->
     <!-- <InfoBreadcrumb :information="information"/> -->
-    <InfoBox :information="information" :translations="translations"/>
+    <InfoBox :information="information"/>
     <tabs />
 
   </div>
