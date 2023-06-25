@@ -1,5 +1,57 @@
 {
-    "greeting": "مرحبًا",
-    "welcome": "مرحبًا بك في موقعنا!"
+  "message": "مرحبا",
+  "products": {
+    "list": [
+      {
+        "createdAt": "2023-06-17T04:50:58.387Z",
+        "title": "كنبة مريحة",
+        "price": 11,
+        "description": "كنبة مش اي كنبة دي كنبة الكنبايات ",
+        "image": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-blue__0865034_pe781333_s5.jpg",
+        "id": "1"
+       },
+       {
+        "createdAt": "2023-06-16T20:39:23.219Z",
+        "title": "كنبة فخمة",
+        "price": 65,
+        "description": "كنبة مش اي كنبة دي كنبة الكنبايات ",
+        "image": "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg",
+        "id": "2"
+       },
+       {
+        "createdAt": "2023-06-16T21:04:46.231Z",
+        "title": "Cody Davis",
+        "price": 30,
+        "description": "كنبة مش اي كنبة دي كنبة الكنبايات ",
+        "image": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/5850214_1.jpg?v=1671407626",
+        "id": "3"
+       },
+       {
+        "createdAt": "2023-06-17T01:18:54.566Z",
+        "title": "كنبة فاخرة",
+        "price": 19,
+        "description": "كنبة مش اي كنبة دي كنبة الكنبايات ",
+        "image": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/SillonAzul_e568dc7d-f7e7-42ac-816b-95610adb7276.png?v=1672083096&width=1445",
+        "id": "4"
+       },
+       {
+        "createdAt": "2023-06-17T05:58:56.228Z",
+        "title": "Noah Kub",
+        "price": 42,
+        "description": "كنبة مش اي كنبة دي كنبة الكنبايات ",
+        "image": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/SillonMorado_3427955f-6351-4063-987e-86e4db3239e8.png?v=1672083095&width=1445",
+        "id": "5"
+       },
+       {
+        "createdAt": "2023-06-16T14:50:45.898Z",
+        "title": "خلاص بقى قولناكنبة",
+        "price": 56,
+        "description": "Dolor quis tenetur maxime delectus sint velit tempora perspiciatis. Ea modi harum ratione temporibus dignissimos. Nemo est assumenda eum libero porro praesentium. Nostrum vitae a iusto.",
+        "image": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/5850219_1.jpg?v=1671407627&width=1445",
+        "id": "6"
+       }
+    ]
   }
-  
+}
+
+

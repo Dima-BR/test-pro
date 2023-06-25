@@ -1,5 +1,54 @@
 {
-    "greeting": "Hello",
-    "welcome": "Welcome to our website!"
+  "products": {
+    "list": [
+      {
+        "createdAt": "2023-06-17T04:50:58.387Z",
+        "title": "Edwin Tromp",
+        "price": 11,
+        "description": "Facilis quis expedita. Magnam quae fugit odit dolorum ratione maxime qui maxime vitae. Amet accusantium exercitationem doloribus optio aliquam exercitationem accusamus error alias. Et quod optio sapiente. Quos et sapiente rerum id distinctio placeat expedita.",
+        "image": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-blue__0865034_pe781333_s5.jpg",
+        "id": "1"
+      },
+      {
+        "createdAt": "2023-06-16T20:39:23.219Z",
+        "title": "Seth Hintz",
+        "price": 65,
+        "description": "Vero dolorem magnam. Dicta quibusdam iure fuga fugiat voluptates. Maiores iusto quia nostrum earum nisi. Magnam mollitia laborum neque ipsa eius error.",
+        "image": "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg",
+        "id": "2"
+      },
+      {
+        "createdAt": "2023-06-16T21:04:46.231Z",
+        "title": "Cody Davis",
+        "price": 30,
+        "description": "Nihil aliquid perspiciatis mollitia quis sunt cumque iusto aliquid. Blanditiis eum sequi dignissimos. Laborum consectetur magnam in fuga sit delectus hic. Minus saepe quaerat.",
+        "image": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/5850214_1.jpg?v=1671407626",
+        "id": "3"
+      },
+      {
+        "createdAt": "2023-06-17T01:18:54.566Z",
+        "title": "Belinda Rice",
+        "price": 19,
+        "description": "Minus delectus officia. Nihil sequi maxime quia saepe. Eaque quos tempore.",
+        "image": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/SillonAzul_e568dc7d-f7e7-42ac-816b-95610adb7276.png?v=1672083096&width=1445",
+        "id": "4"
+      },
+      {
+        "createdAt": "2023-06-17T05:58:56.228Z",
+        "title": "Noah Kub",
+        "price": 42,
+        "description": "Tempora tenetur eos labore. Praesentium iure amet maxime ratione culpa. Quasi nostrum sapiente. Praesentium modi molestiae. In sed quod hic hic libero soluta in asperiores.",
+        "image": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/SillonMorado_3427955f-6351-4063-987e-86e4db3239e8.png?v=1672083095&width=1445",
+        "id": "5"
+      },
+      {
+        "createdAt": "2023-06-16T14:50:45.898Z",
+        "title": "Luis Weisssnat",
+        "price": 56,
+        "description": "Dolor quis tenetur maxime delectus sint velit tempora perspiciatis. Ea modi harum ratione temporibus dignissimos. Nemo est assumenda eum libero porro praesentium. Nostrum vitae a iusto.",
+        "image": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/5850219_1.jpg?v=1671407627&width=1445",
+        "id": "6"
+      }
+    ]
   }
-  
+}
