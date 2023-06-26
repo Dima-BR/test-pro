@@ -6,114 +6,114 @@
         "img": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-blue__0865034_pe781333_s5.jpg",
         "title": "صوفا 243",
         "price": 156,
-        "color": "yellow",
-        "type": "sofa"
+        "color": "اصفر",
+        "type": "صوفا"
       },
        {
         "id":1,
         "img": "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg",
         "title": "تيبل لامب 54",
         "price": 756,
-        "color": "yellow",
-        "type": "lamp"
+        "color": "اصفر",
+        "type": "تيبل لامب"
       }, {
         "id":2,
-        "img": "require('@/assets/3.jpg')",
-        "title": "كرسي 34",
+        "img": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/5850214_1.jpg?v=1671407626",
+        "title": "كنبة مريحة 34",
         "price": 362,
-        "color": "yellow",
-        "type": "chair"
+        "color": "اصفر",
+        "type": "كرسي"
       }, {
         "id":3,
-        "img": "require('@/assets/4.jpg')",
-        "title": "كرسي324",
+        "img": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/SillonAzul_e568dc7d-f7e7-42ac-816b-95610adb7276.png?v=1672083096&width=1445",
+        "title": "كنبة مريحة324",
         "price": 505,
-        "color": "red",
-        "type": "chair"
+        "color": "أحمر",
+        "type": "كرسي"
       }, {
         "id":4,
-        "img": "require('@/assets/5.jpg')",
+        "img": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/SillonMorado_3427955f-6351-4063-987e-86e4db3239e8.png?v=1672083095&width=1445",
         "title": "صوفا-1",
         "price": 243,
-        "color": "white",
-        "type": "sofa"
+        "color": "ابيض",
+        "type": "صوفا"
       }, {
         "id":5,
-        "img": "require('@/assets/6.jpg')",
-        "title": "فوتل-2",
+        "img": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/5850219_1.jpg?v=1671407627&width=1445",
+        "title": "كنبة مريحة-2",
         "price": 44,
-        "color": "white",
-        "type": "chair"
+        "color": "ابيض",
+        "type": "كرسي"
       }, {
         "id":6,
-        "img": "require('@/assets/7.jpg')",
-        "title": "فوتال-34",
+        "img": "https://images.thdstatic.com/productImages/ea2fd033-8662-4a53-9d22-90336f08d3b6/svn/pink-homefun-صوفا-beds-hfhdsn-8830pk-64_600.jpg",
+        "title": "كنبة مريحة-34",
         "price": 505,
-        "color": "blue",
-        "type": "chair"
+        "color": "ازرق",
+        "type": "كرسي"
       }, {
         "id":7,
-        "img": "require('@/assets/8.jpg')",
-        "title": "كرسي مريح-4364",
+        "img": "https://images.squarespace-cdn.com/content/v1/5ed2dcd9bec96f17e7468fc9/1643635196448-Z2JGONNMHU2MOIROARM0/Navy+Kidney+sofa.png?format=1000w",
+        "title": "كنبة فخمة-4364",
         "price": 432,
-        "color": "red",
-        "type": "table"
+        "color": "أحمر",
+        "type": "طاولة"
       },
       {
         "id":8,
-        "img": "require('@/assets/9.jpg')",
-        "title": "كرسي-44",
+        "img": "https://a.1stdibscdn.com/archivesB/upload/8521/25/pict4661.jpg",
+        "title": "كنبة فخمة-44",
         "price": 390,
-        "color": "white",
-        "type": "table"
+        "color": "ابيض",
+        "type": "طاولة"
       },
       {
         "id":9,
-        "img":" require('@/assets/10.jpg')",
-        "title": "كرسي-34",
+        "img":"https://i.pinimg.com/originals/60/10/33/601033b29adc35a45896027be19d8ba9.jpg",
+        "title": "كنبة فخمة-34",
         "price": 756,
-        "color": "yellow",
-        "type": "chair"
+        "color": "اصفر",
+        "type": "كرسي"
       },
       {
         "id":10,
-        "img": "require('@/assets/11.jpg')",
-        "title": "كرسي-23",
+        "img": "https://www.nicepng.com/png/detail/155-1558049_sofa-png-psd-chairs-free-download.png",
+        "title": "كنبة فخمة-23",
         "price": 44,
-        "color": "white",
-        "type": "chair"
+        "color": "ابيض",
+        "type": "كرسي"
       },
       {
         "id":11,
-        "img": "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg",
-        "title": "مصباح-4234",
+        "img": "https://purepng.com/public/uploads/large/purepng.com-sofasofafurniturearmrestsentirely-upholsteredloungecouchbedsteaddivan-1701527998293fkic1.png",
+        "title": "كنبة فخمة-4234",
         "price": 156,
-        "color": "red",
-        "type": "lamp"
+        "color": "أحمر",
+        "type": "تيبل لامب"
       },
       {
         "id":12,
-        "img": "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg",
-        "title": "مصباح-4234",
+        "img": "https://cdn.shopify.com/s/files/1/0494/9301/6732/products/AC016LOVE-ET80_7.jpg?v=1659019341&width=2449",
+        "title": "كنبة فخمة-994",
         "price": 756,
-        "color": "blue",
-        "type": "lamp"
+        "color": "ازرق",
+        "type": "تيبل لامب"
       },
       {
         "id":13,
-        "img":"https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg",
-        "title": "كرسي-4234",
+        "img":"https://cdn.shopify.com/s/files/1/0494/9301/6732/products/AC016LOVE-ET90_8_1.jpg?v=1659019356",
+        "title": "كنبة فخمة-434",
         "price": 756,
-        "color": "white",
-        "type": "chair"
+        "color": "ابيض",
+        "type": "كرسي"
       },
       {
         "id":14,
-        "img": "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg",
+        "img": "https://st.depositphotos.com/2097531/2163/i/600/depositphotos_21635179-stock-photo-couch-isolated-on-ابيض-background.jpg",
         "title": "طاولة-32",
         "price": 756,
-        "color": "white",
-        "type": "table"
+        "color": "ابيض",
+        "type": "طاولة"
       }
     ]
   }

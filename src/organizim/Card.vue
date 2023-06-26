@@ -15,7 +15,7 @@
             </div>
             <img class="card-img-top" :src="item.img" :alt="item.title">
             <div class="card-body text-black">
-              <h5 class="card-title">{{ item.title }}</h5>
+              <h5 class="card-title">{{ $t(item.title) }}</h5>
               <h6 class="mb-3">
               <s>$666.99</s><strong class="ms-2 text-danger">${{ item.price }}</strong>
             </h6>
@@ -52,7 +52,15 @@ export default {
       window.console.log("Card items", items);
       this.$store.commit('setItems', items);
     },
+    changeLanguage(locale) {
+    this.$i18n.locale = locale;
   }
+  },
+  computed: {
+  translatedTitle() {
+    return this.$t('item.title');
+  }
+},
 }
 </script>
 

@@ -27,6 +27,7 @@ export default {
   data() {
     return {
       showCards: 6,
+      slicedCards: [],
     };
   },
   created() {
@@ -36,20 +37,34 @@ export default {
     cards() {
       return this.$store.getters.filteredItems;
     },
-    slicedCards() {
-      return this.cards.slice(0, this.showCards);
+  },
+  watch: {
+    cards: {
+      immediate: true,
+      handler() {
+        this.updateSlicedCards();
+      },
+    },
+    showCards: {
+      immediate: true,
+      handler() {
+        this.updateSlicedCards();
+      },
     },
   },
   methods: {
     incCardNumber() {
-      return (this.showCards += 6);
+      this.showCards += 6;
     },
     loadItems() {
       const jsonFile = this.$store.state.language === 'en' ? 'en.json' : 'ar.json';
-      window.console.log("this.$store.state.language", this.$store.state.language);
       const jsonData = require(`../locales/${jsonFile}`);
       const items = jsonData.products.items;
+      window.console.log("Grid items", items);
       this.$store.commit('setItems', items);
+    },
+    updateSlicedCards() {
+      this.slicedCards = this.cards.slice(0, this.showCards);
     },
   },
 };

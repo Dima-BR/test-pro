@@ -30,17 +30,20 @@ export default new Vuex.Store({
         return state.infoPage.splice(0, 1)
       }
     },
+    // filteredItems(state) {
+    //   return state.items.filter((item) => item.language === state.language);
+    // },
     filteredItems(state) {
+      if (!state.filter) {
+        window.console.log("first if ");
+        return state.items;
+      }
+      // Apply filtering logic based on the filter property
+      // For example:
+      // return state.items.filter(item => item.category === state.filter);
+       window.console.log("out if ", this.item.language);
       return state.items.filter((item) => item.language === state.language);
     },
-    // filteredItems(state) {
-    //   if (!state.filter) {
-    //     return state.items;
-    //   }
-    //   // Apply filtering logic based on the filter property
-    //   // For example:
-    //   return state.items.filter(item => item.category === state.filter);
-    // },
   },
 
   mutations: {

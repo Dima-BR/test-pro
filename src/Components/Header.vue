@@ -1,9 +1,5 @@
 <template>
   <div>
- 
-    <!-- New design  -->
-    <!-- Navbar -->
-<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <!-- Container wrapper -->
   <div class="container-fluid">
@@ -22,15 +18,6 @@
 
     <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Navbar brand -->
-      <!-- <a class="navbar-brand mt-2 mt-lg-0" href="#">
-        <img
-          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-          height="15"
-          alt="MDB Logo"
-          loading="lazy"
-        />
-      </a> -->
        <!--Logo-->
        <router-link  class="navbar-brand mt-2 mt-lg-0" to="/">
           <img src="@/assets/fi-logo.svg" width="50" height="50" loading="lazy">
@@ -58,17 +45,9 @@
     <!-- Right elements -->
     <div class="d-flex align-items-center">
       <!-- Cart -->
-      <!-- Icon -->
-      <!-- <a class="text-reset me-3" href="#">
-        <i class="fas fa-shopping-cart"></i>
-      </a> -->
       <router-link class="text-reset me-3 text-decoration-none" to="/cart">
             <i class="bi bi-cart"></i>
-            
-            <!-- <div class="bag" > -->
-                <!-- <img class="pb-1" src="@/assets/cart.svg"> -->
                 <span v-if="this.bagItemscount > 0">{{ bagItemscount }}</span>
-            <!-- </div> -->
       </router-link>
        <!-- Avatar -->
        <div class="dropdown">
@@ -86,7 +65,6 @@
         </a>
         <ul :class="getDropdownMenuClass()" aria-labelledby="navbarDropdownMenuAvatar">
         <li class="d-flex justify-content-between align-items-center px-3">
-          <!-- <button @click="switchLanguage('en')" type="button" class="btn btn-secondary btn-sm">English</button> -->
           <button @click="switchLanguage('en')" type="button" class="btn  btn-sm active btn-primary">English</button>
 
           <button @click="switchLanguage('ar')" type="button" class="btn btn-secondary btn-sm">العربية</button>
@@ -99,23 +77,6 @@
         </li>
       </ul>
 
-        <!-- <ul
-          class="dropdown-menu dropdown-menu-end"
-          aria-labelledby="navbarDropdownMenuAvatar"
-        >
-          <li>
-            
-          <button @click="switchLanguage('en')" type="button" class="btn btn-secondary btn-sm">English</button>
-          <button @click="switchLanguage('ar')" type="button" class="btn btn-secondary btn-sm">العربية</button>
-       
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Settings</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Logout</a>
-          </li>
-        </ul> -->
       </div>
       
     
@@ -146,12 +107,10 @@ export default {
     openCart() {
       this.$refs.cartMove.cartON()
     },
-    // switchLanguage(language) {
-    //   this.$emit('language-switch', language);
-    // },
     
     switchLanguage(locale) {
       this.$i18n.local = locale;
+      window.console.log("locale", locale);
       document.documentElement.setAttribute('lang', locale);
       document.documentElement.setAttribute('dir', locale === 'ar' ? 'rtl' : 'ltr');
 },
