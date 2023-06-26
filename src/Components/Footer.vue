@@ -1,26 +1,124 @@
 <template>
-  <footer class="footer_area">
-    <div class="container">
-      
-
-      <div class="row justify-content-between align-items-center">
-        <div class="col-xl-7 col-lg-6 col-md-6 col-sm-6 col-6">
-          <div class="tiny-footer">
-            <p>Copyright © All Rights Reserved 2023 </p>
-          </div>
-        </div>
-        <div class="col-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 text-right">
-          <div class="social-info">
-            <strong>Get social</strong>
-            <img class="twitter" src="@/assets/twitter.png">
-            <img class="pinterest" src="@/assets/pinterest.png">
-            <img class="facebook" src="@/assets/facebook.png">
-            <img class="instagram" src="@/assets/insta.png">
-          </div>
-        </div>
-      </div>
+    <!-- New footer  -->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
     </div>
-  </footer>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Customer service
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">About Services</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Feedback</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Return Policy</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">General information</h6>
+          <p><a href="#!" class="text-reset">Product support </a></p>
+          <p><a href="#!" class="text-reset">
+            Privacy Policy
+         </a> </p>
+          <p><a href="#!" class="text-reset">Cookie Policy</a> </p>
+          <p><a href="#!" class="text-reset">Cookie Settings</a></p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    Copyright © All Rights Reserved 2023
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    <!-- end footer  -->
+ 
 </template>
 
 <script>
@@ -61,6 +159,12 @@ export default {
 
 .social-info>img:hover {
   opacity: 0.7;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }
 
 </style>

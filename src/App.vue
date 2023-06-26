@@ -1,7 +1,7 @@
 <template>
   <div id="app">
+    <!-- <Header /> -->
     <Header />
-    <!-- <Header @language-switch="handleLanguageSwitch" /> -->
     <router-view />
     <Footer />
   </div>

@@ -34,13 +34,24 @@
 export default {
   props: ['CardArray'],
   name: 'Card',
+  created() {
+    this.loadItems();
+  },
   methods: {
     addtoCart(it) {
      this.$store.commit('inCart', it)
     },
     sendInfo(it) {
      this.$store.commit('addtoInfo', it)
-    }
+    },
+    loadItems() {
+      const jsonFile = this.$store.state.language === 'en' ? 'en.json' : 'ar.json';
+      window.console.log("this.$store.state.language", this.$store.state.language);
+      const jsonData = require(`../locales/${jsonFile}`);
+      const items = jsonData.products.items;
+      window.console.log("Card items", items);
+      this.$store.commit('setItems', items);
+    },
   }
 }
 </script>
