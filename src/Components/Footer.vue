@@ -246,11 +246,6 @@
 <script>
 export default {
   name: 'Footer',
-  methods(){
-  //   changeLanguage(locale) {
-  //   this.$i18n.locale = locale;
-  // }
-  }
 }
 </script>
 
