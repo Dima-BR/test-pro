@@ -1,15 +1,21 @@
 import Vue from 'vue'
+import './assets/css/reset.css';
+
 import App from './App.vue'
 import VueI18n from 'vue-i18n';
 import router from './router'
 import store from './store';
-// import 'vue3-toastify/dist/vue3-toastify.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap';
 import 'bootstrap-icons/font/bootstrap-icons';
+import './assets/css/style.css';
+// import Roboto from '@fortawesome/vue-fontawesome';
 
 import ar from './locales/ar.json'
 import en from './locales/en.json'
+
+// Import the Roboto font family.
+// import 'roboto/dist/css/roboto.min.css';
 
 Vue.config.productionTip = false
 Vue.config.devtools = true

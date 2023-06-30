@@ -3,117 +3,178 @@
     "items":[
       {
         "id":0,
-        "img": "https://www.ikea.com/in/en/images/products/gammalbyn-2-seat-sofa-blue__0865034_pe781333_s5.jpg",
-        "title": "sofa 243",
+        "img": "https://m.media-amazon.com/images/I/41wsh8vdrkL.__AC_SX300_SY300_QL70_ML2_.jpg",
+        "imagehover":"https://m.media-amazon.com/images/I/61IkEs05ycL._AA360_AC_QL70_.jpg",
+        "title": "Dima sofa 243",
+        "tag":"Sale",
+        "rate":3,
         "price": 156,
-        "color": "yellow",
-        "type": "sofa"
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       },
-       {
+      {
         "id":1,
-        "img": "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg",
-        "title": "lamp 54",
-        "price": 756,
-        "color": "yellow",
-        "type": "lamp"
-      }, {
+        "img":"https://i5.walmartimages.com/asr/6bddc9eb-ceac-47ef-b8b3-22844297c509.8977493180a3a5d39bf7fa8042895d63.jpeg",
+        "title": "foto-34",
+        "imagehover":"https://m.media-amazon.com/images/I/71h4PuJfEIS.jpg",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
+      },
+      {
         "id":2,
         "img": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/5850214_1.jpg?v=1671407626",
         "title": "fotal 34",
-        "price": 362,
-        "color": "yellow",
-        "type": "chair"
+        "imagehover":"https://media.homecentre.com/i/homecentre/164989288-164989288-HC20012023_02-2100.jpg?fmt=auto&$quality-standard$&sm=c&$prodimg-d-sqr-pdp$",
+        "tag":"Sale",
+        "rate":2,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       }, {
         "id":3,
-        "img": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/SillonAzul_e568dc7d-f7e7-42ac-816b-95610adb7276.png?v=1672083096&width=1445",
+        "img": "https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/F/a/Fabric-Single-Sofa-Red--6867070_1.jpg",
         "title": "fotal324",
-        "price": 505,
-        "color": "red",
-        "type": "chair"
+        "imagehover":"https://www.neohoreca.com/wp-content/uploads/2021/02/Office-Waiting-Room-Single-Sofa-NEO-430100E.jpg",
+        "tag":"Sale",
+        "rate":5,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       }, {
         "id":4,
         "img": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/SillonMorado_3427955f-6351-4063-987e-86e4db3239e8.png?v=1672083095&width=1445",
         "title": "sofa-1",
-        "price": 243,
-        "color": "white",
-        "type": "sofa"
+        "imagehover":"https://ak1.ostkcdn.com/images/products/is/images/direct/09d1d07f91b556eb77536184144196a35e9be93f/Velvet-Accent-Chair-Upholstered-Living-Room-Arm-Chairs-Comfy-Single-Sofa-Chair.jpg",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       }, {
         "id":5,
         "img": "https://cdn.shopify.com/s/files/1/0669/7897/1941/products/5850219_1.jpg?v=1671407627&width=1445",
         "title": "Fotal-2",
-        "price": 44,
-        "color": "white",
-        "type": "chair"
+        "imagehover":"https://cdn.shopify.com/s/files/1/0522/4405/4178/products/1seaterlightbluemoodshotcopy.jpg?v=1666075468",
+        "tag":"Sale",
+        "rate":5,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       }, {
         "id":6,
-        "img": "https://images.thdstatic.com/productImages/ea2fd033-8662-4a53-9d22-90336f08d3b6/svn/pink-homefun-sofa-beds-hfhdsn-8830pk-64_600.jpg",
+        "img": "https://blowupdesign.pl/28099-medium_default/amorinito-velvet-133-light-pink-shell-sofa-with-gold-legs-halmar.jpg",
         "title": "Fotal-34",
-        "price": 505,
-        "color": "blue",
-        "type": "chair"
+        "imagehover":"data:image/jpeg;base64,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",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       }, {
         "id":7,
         "img": "https://images.squarespace-cdn.com/content/v1/5ed2dcd9bec96f17e7468fc9/1643635196448-Z2JGONNMHU2MOIROARM0/Navy+Kidney+sofa.png?format=1000w",
         "title": "foto-4364",
-        "price": 432,
-        "color": "red",
-        "type": "table"
+        "imagehover":"https://img5.su-cdn.com/cdn-cgi/image/width=600,height=600/mall/file/2021/09/06/3d58a471f4f94f9b8c08c604ce7f59d1.jpg",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       },
       {
         "id":8,
-        "img": "https://a.1stdibscdn.com/archivesB/upload/8521/25/pict4661.jpg",
+        "img": "https://i5.walmartimages.com/asr/f1bb974a-98eb-49c8-90b2-3c555b37e699.5380501a990734453e38442ad24b26d3.jpeg",
         "title": "foto-44",
-        "price": 390,
-        "color": "white",
-        "type": "table"
+        "imagehover":"https://i.ebayimg.com/images/g/xccAAOSwY29j2yOV/s-l1200.webp",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       },
       {
         "id":9,
-        "img":"https://i.pinimg.com/originals/60/10/33/601033b29adc35a45896027be19d8ba9.jpg",
-        "title": "foto-34",
-        "price": 756,
-        "color": "yellow",
-        "type": "chair"
+        "img": "https://m.media-amazon.com/images/I/91d1x+ToGmL._AC_SX450_.jpg",
+        "imagehover":"https://m.media-amazon.com/images/I/810LTcnWQZL._AC_SX450_.jpg",
+        "title": "Dima sofa 243",
+        "tag":"New",
+        "rate":4,
+        "price": 156,
+        "pricebefore":"",
+        "category": "sofa",
+        "currency":"JD"
       },
       {
         "id":10,
-        "img": "https://www.nicepng.com/png/detail/155-1558049_sofa-png-psd-chairs-free-download.png",
+        "img": "https://media.4rgos.it/s/Argos/9191336_R_SET?$Main768$&w=620&h=620",
         "title": "foto-23",
-        "price": 44,
-        "color": "white",
-        "type": "chair"
+        "imagehover":"https://img.freepik.com/premium-photo/vibrant-accent-sofa-is-located-middle-spacious-living-room-velvet-is-terracotta-orange-carrot-color-blank-white-mockup-wall-art_872147-24940.jpg",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       },
       {
         "id":11,
-        "img": "https://purepng.com/public/uploads/large/purepng.com-sofasofafurniturearmrestsentirely-upholsteredloungecouchbedsteaddivan-1701527998293fkic1.png",
+        "img": "https://assets.dragonmart.ae//pictures/0190522_neo-front-single-sofa-chair-with-pillow-orange.jpeg",
         "title": "foto-4234",
+        "imagehover":"https://www.highmoon.ae/shop/wp-content/uploads/2022/02/1R5A9035-copy-400x533.jpg",
+        "tag":"Sale",
+        "rate":4,
         "price": 156,
-        "color": "red",
-        "type": "lamp"
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       },
       {
         "id":12,
         "img": "https://cdn.shopify.com/s/files/1/0494/9301/6732/products/AC016LOVE-ET80_7.jpg?v=1659019341&width=2449",
         "title": "foto-4234",
-        "price": 756,
-        "color": "blue",
-        "type": "lamp"
+        "imagehover":"https://ii2.pepperfry.com/media/catalog/product/b/e/800x880/beluga-1-seater-sofa-in-blue-colour-by-trevi-furniture-beluga-1-seater-sofa-in-blue-colour-by-trevi--zkk8zl.jpg",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       },
       {
         "id":13,
         "img":"https://cdn.shopify.com/s/files/1/0494/9301/6732/products/AC016LOVE-ET90_8_1.jpg?v=1659019356",
         "title": "foto-4234",
-        "price": 756,
-        "color": "white",
-        "type": "chair"
+        "imagehover":"https://cdn.apartmenttherapy.info/image/upload/v1558824587/at/archive/f4bfe6cf24cb0b41a295bb4f6bbbe2c0ffa001ba.jpg",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       },
       {
         "id":14,
-        "img": "https://st.depositphotos.com/2097531/2163/i/600/depositphotos_21635179-stock-photo-couch-isolated-on-white-background.jpg",
+        "img": "https://res.cloudinary.com/dkqtxtobb/image/upload/f_auto,q_auto:best,w_1000/product-assets/301718/west-elm/sofas/classic-sofas/west-elm-hamilton-sofa-used.jpeg",
         "title": "table-32",
-        "price": 756,
-        "color": "white",
-        "type": "table"
+        "imagehover":"https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGx2aW5nJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "tag":"Sale",
+        "rate":4,
+        "price": 156,
+        "pricebefore":200,
+        "category": "sofa",
+        "currency":"JD"
       }
     ]
   }

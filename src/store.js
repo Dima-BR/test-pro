@@ -38,11 +38,14 @@ export default new Vuex.Store({
         window.console.log("first if ");
         return state.items;
       }
-      // Apply filtering logic based on the filter property
-      // For example:
+      
       // return state.items.filter(item => item.category === state.filter);
        window.console.log("out if ", this.item.language);
       return state.items.filter((item) => item.language === state.language);
+    },
+
+    getProductById: (state) => (id) => {
+      return state.items.find((item) => item.id === id);
     },
   },
 
@@ -62,9 +65,6 @@ export default new Vuex.Store({
     },
     setItems(state, items) {
       state.items = items;
-    },
-    setFilter(state, filter) {
-      state.filter = filter;
     },
   },
 })

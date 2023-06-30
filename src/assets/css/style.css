@@ -1,0 +1,28 @@
+/* General styles */
+
+/* Primary color */
+.primary {
+    color: #09264a !important;
+  }
+  
+  /* Primary 2 color */
+  .primary-2 {
+    color: #f99820;
+  }
+  a {
+    color: black !important;
+  }
+  
+  a:hover {
+    color: #f99820 !important;
+  }
+  /* button {
+    background-color:#09264a ;
+    color: #bbbbbb ;
+  } */
+  
+  /* Font family */
+  body {
+    font-family: Roboto, sans-serif;
+  }
+  

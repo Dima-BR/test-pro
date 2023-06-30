@@ -1,17 +1,17 @@
 <template>
   <div>
-    <div class="container grid">
-      <div class="row justify-content-center my-5">
-        <div class="row col-xl-9 col-lg-9 col-md-12 col-sm-12 col-xs-12 text-center">
+    <div class="container grid py-5">
+      <!-- <div class="row justify-content-center my-5">
+        <div div class="row col-xl-9 col-lg-9 col-md-12 col-sm-12 col-xs-12 text-center">
           <div v-if="slicedCards.length === 0" class="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h4 style="margin-left: 9rem; margin-right: 9rem">Sorry, we can't find a product with these features</h4>
-          </div>
+          </div> -->
           <Card :CardArray="slicedCards" />
           <div class="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 py-5">
             <button type="button" @click="incCardNumber" class="btn btn-outline-secondary btn-lg btn-block">More +</button>
           </div>
-        </div>
-      </div>
+        <!-- </div> -->
+      <!-- </div> -->
     </div>
   </div>
 </template>

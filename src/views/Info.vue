@@ -1,9 +1,8 @@
 <template >
   <div class="container py-5" style="padding-top:70px;">
-
+    Hi you are inside the info
     <InfoBox :information="information"/>
     <tabs />
-
   </div>
 </template>
 
@@ -15,15 +14,12 @@ import tabs from '@/Components/tabs.vue'
 export default {
   name:'Info',
   components: {
-    // InfoBreadcrumb,
      InfoBox, tabs,
-      // Card
   },
   data() {
     return {
       information: [],
       relatedItems: [],
-      currentLanguage: 'en',
     }
   },
   created(){
