@@ -14,6 +14,7 @@
       ...mapGetters('products', ['getProductById']),
       product() {
         const productId = this.$route.params.id;
+        window.console.log("productId", productId);
         return this.getProductById(productId);
       },
 

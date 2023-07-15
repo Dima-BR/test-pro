@@ -9,9 +9,14 @@
         >
           <div class="product-grid">
             <div class="product-image">
-              <router-link
+              <!-- <router-link
                 to="/product/${item.id}"
                 @click="sendInfo(item)"
+                class="text-decoration-none image"
+              > -->
+
+              <router-link
+                to="/info"
                 class="text-decoration-none image"
               >
                 <!-- <a href="#" class="image"> -->
